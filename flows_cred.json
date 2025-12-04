@@ -1,1 +1,9 @@
-{}
+{
+    "b2797592163729b8": {
+        "user": "${MQTT_BROKER_USR}",
+        "password": "${MQTT_BROKER_PSW}"
+    },
+    "4a57a5263616216a": {
+        "map": {}
+    }
+}
