@@ -1,7 +1,7 @@
-smart_home_system
-=================
+# GREATER-Smart-Photovoltaic-Household
+This project is part of the GREATER framework and contains the source code for the implementation of the Laboratory Kit Do-It-Yourself. Specifically, this project contains the Smart Photovoltaic Household System documentation with the related firmware, cloud application software and tutorial.
 
-### About
+All the documentation an tutorial can be found in the [Wiki page](https://github.com/mircomunch/GREATER-Smart-Photovoltaic-Household/wiki).
 
-This is your project's README.md file. It helps users understand what your
-project does, how to use it and anything else they may need to know.
+This course has been made available as part of the [GREATER Project](https://www.greaterproject.eu/).\
+The GREATER project has received funding from the European Union’s ERASMUS+ CBHE (Capacity Building in Higher Education) Programme under grant agreement 101083081-GREATER — ERASMUS-EDU-2022-CBHE.
