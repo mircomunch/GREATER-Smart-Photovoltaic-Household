@@ -8,8 +8,8 @@
     },
     "node-red": {
         "settings": {
-            "flowFile": "flows.json",
-            "credentialsFile": "flows_cred.json"
+            "flowFile": "Node-RED application/flows.json",
+            "credentialsFile": "Node-RED application/flows_cred.json"
         }
     }
 }
