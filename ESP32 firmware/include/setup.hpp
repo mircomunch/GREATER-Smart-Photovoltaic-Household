@@ -10,8 +10,8 @@
 #endif
 
 // BOARD NAME
-#define BOARD_ID "LL-Parma"
-#define LOCATION "ITA-Parma-UNIPR"
+#define BOARD_ID "---INSERT YOUR ID HERE---"
+#define LOCATION "---INSERT YOUR LOCATION HERE---"
 
 // Sensors activated
 #define SENS_TEMPHUM
@@ -30,30 +30,26 @@
 #define READ_TENTATIVE 2
 
 // WiFI configurations
-// #define WIFI_SSID "Greater"
-// #define WIFI_PASSWORD "greater23"
-// #define WIFI_SSID "Batcaverna"
-// #define WIFI_PASSWORD "Spiderman"
-#define WIFI_SSID "greater_wifi"
-#define WIFI_PASSWORD "greater_psw"
+#define WIFI_SSID "---INSERT YOUR WIFI-SSID HERE---"
+#define WIFI_PASSWORD "---INSERT YOUR WIFI-PSW HERE---"
 
 // MQTT configurations
-#define MQTT_AUTH
+// #define MQTT_AUTH
 #ifdef MQTT_AUTH
-	#define MQTT_HOST "350fd0725fa14a069e04d387121e69f7.s2.eu.hivemq.cloud"
-	#define MQTT_PORT 8883
-	#define MQTT_USER "admin"
-	#define MQTT_PASSWORD "Admin123"
-	#define MQTT_CERT_EN true // define if certificate needed for broker connection
+	#define MQTT_HOST "---INSERT YOUR AUTHENTICATED-BROKER-HOSTNAME HERE---"
+	#define MQTT_PORT AUTHENTICATED-BROKER-PORT-NUMBER
+	#define MQTT_USER "---INSERT YOUR AUTHENTICATED-USERNAME HERE---"
+	#define MQTT_PASSWORD "---INSERT YOUR AUTHENTICATED-USERNAME HERE---"
+	#define MQTT_CERT_EN false // define if certificate needed for broker connection
 #else
-	#define MQTT_HOST "broker.hivemq.com"
-	#define MQTT_PORT 1883
+	#define MQTT_HOST "---INSERT YOUR PUBLIC-BROKER-HOSTNAME HERE---"
+	#define MQTT_PORT AUTHENTICATED-BROKER-PORT-NUMBER
 #endif
 
-#define MQTT_TOPIC "unipr/lab/"
-#define MQTT_PUBLISH_TOPIC MQTT_TOPIC "data"
-#define MQTT_DATETIME_TOPIC MQTT_TOPIC "datetime"
-#define MQTT_CMD_TOPIC MQTT_TOPIC "cmd"
+#define MQTT_TOPIC "---INSERT YOUR ROOT-TOPIC HERE---"
+#define MQTT_PUBLISH_TOPIC MQTT_TOPIC "---INSERT YOUR DATA-TOPIC HERE---"
+#define MQTT_DATETIME_TOPIC MQTT_TOPIC "---INSERT YOUR DATETIME-TOPIC HERE---"
+#define MQTT_CMD_TOPIC MQTT_TOPIC "---INSERT YOUR COMMAND-TOPIC HERE---"
 #define MQTT_QOS_SUB 1
 #define MQTT_PUBLISH_MESSAGE_MAX_SIZE 65536 / 2 // MQTT publish max size = 256MB
 
