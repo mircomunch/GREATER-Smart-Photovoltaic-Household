@@ -1,5 +1,5 @@
 # GREATER - Smart Photovoltaic Household System
-<img src="images/image1.png" width="534" />
+<img src="wiki/images/image1.png" width="534" />
 
 This project is part of the GREATER framework and contains the source code for the implementation of the Laboratory Kit Do-It-Yourself. Specifically, this project contains the Smart Photovoltaic Household System documentation with the related firmware, cloud application software and tutorial.
 
