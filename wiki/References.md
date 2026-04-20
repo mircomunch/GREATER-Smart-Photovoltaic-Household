@@ -5,9 +5,9 @@
 ## Project resources
 
 - Firmware for ESP32 made with PlatformIO in Visual Studio Code  
-  <https://github.com/mircomunch/GREATER-Smart-Photovoltaic-Household/tree/main/ESP32%20firmware>
+  <https://github.com/mircomunch/GREATER-Smart-Photovoltaic-Household/tree/main/ESP32_firmware>
 - Software cloud application made with Node-RED  
-  <https://github.com/mircomunch/GREATER-Smart-Photovoltaic-Household/tree/main/Node-RED%20application>
+  <https://github.com/mircomunch/GREATER-Smart-Photovoltaic-Household/tree/main/Node-RED_application>
 - System working mode video  
   <https://youtu.be/tfOb2_4k6YQ>
 
